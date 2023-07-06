@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  
+  font-family: poppins;
 }
 .navbar{
   display: flex;
@@ -30,4 +30,42 @@ body{
   font-size: 16px;
   color: white;
   text-decoration: none;
+}
+.hero{
+  background: url(images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.hero h2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  color: white;
+}
+.hero p{
+  font-size: 16px;
+  color: white;
+  line-height: 22px;
+  margin: 5px 0;
+}
+.hero button{
+  font-size: 14px;
+  font-weight: 500;
+  background: red;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 13px 20px;
+  margin-top: 10px;
+  transition: 0.4s all;
+}
+.hero button:hover{
+  transform: translateY(-6px);
+}
+.hero img{
+  width: 300px;  
 }
